@@ -43,8 +43,7 @@ header nav {
 
 header {
     background-color: #F9003D;
-    height: 60px;
-
+    height: 70px;
 }
 
 /* Flexbox cabeçalho */
@@ -67,32 +66,73 @@ header nav a {
 
 }
 
-
+/* Dev de sistemas */
 h1 {
+    color: white;
     font-size: 96px;
     margin: 5px;
-    position: absolute;
-    width: 545px;
-    height: 230px;
-    left: 121px;
-    top: 286px;
+    padding-top: 150px;
+    padding-right: 300px;
+    
+    
 }
 
+/* Senai Info */
 h2 {
     font-size: 53px;
     color:#F9003D;
     font-family: 'Courier New', Courier, monospace;
-    position: absolute;
-    width: 544px;
-    height: 68px;
-    left: 120px;
-    top: 561px;
-
+    padding-top: 40px;
+    padding-right: 50px;
 }
 
+/* Main */
 main .banner {
     width: 100%;
     height: 740px;
-    background-color: black;
-    background-image: url(/assets/images/imagem-fundo-banner.png)
+    background-color: white;
+    
+    background-image: url(../assets/images/imagem-fundo-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+/* Mouse pass */
+header nav a:hover {
+    background-color: white;
+    color: #F9003D;
+}
+
+
+#Mouse {
+    margin-bottom: 500px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+/* Linha horizontal */
+.banner hr {
+    border: 2px solid #FFAF00;
+    width: 545px;
+}
+
+/* Segunda pág */
+
+h3 {
+    font-family: 'Bebas Neue';
+    color: #F9003D;
+    padding-left: 20px;
+    font-size: 64px;
+    padding-top: 50px;
+}
+
+main .banner2 {
+    width: 100%;
+    height: 740px;
+
+    background-image: url(../assets/imagem-fundo-endereco.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
 }
