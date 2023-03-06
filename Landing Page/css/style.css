@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Courier+Prime&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Courier+Prime&family=Open+Sans:wght@300&display=swap');
 
 
 /* font-family: 'Bebas Neue', cursive; */
@@ -26,7 +26,7 @@
 
 body {
     font-family: 'Bebas Neue';
-    background-color: white;
+    background-color:white;
 }
 
 
@@ -73,7 +73,7 @@ h1 {
     margin: 5px;
     padding-top: 150px;
     padding-right: 300px;
-    
+    font-family: 'Bebas Neue';
     
 }
 
@@ -84,6 +84,7 @@ h2 {
     font-family: 'Courier New', Courier, monospace;
     padding-top: 40px;
     padding-right: 50px;
+    text-transform: uppercase;
 }
 
 /* Main */
@@ -127,12 +128,57 @@ h3 {
     padding-top: 50px;
 }
 
-main .banner2 {
-    width: 100%;
-    height: 740px;
-
-    background-image: url(../assets/imagem-fundo-endereco.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom;
+body {
+    background-color: #080324;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
 }
+
+.sobre .sobre-flex {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.sobre .sobre-flex .sobrebox {
+    width: 500px;
+    
+}
+
+.sobre .sobre-flex .participantes {
+    width: 640px;
+    
+}
+
+.sobre h2 {
+    font-family: 'Bebas Neue';
+    font-size: 64px;
+    margin-bottom: 60px;
+}
+
+.participantes h3 {
+    font-size: 24px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    margin-top: 140px;
+    margin-left: 20px;
+}
+
+.participantes h4 {
+    font-size: 64px;
+    color: #FFAF00;
+    font-family: 'Bebas Neue';
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.participantes p {
+    font-size: 18px;
+    margin-top: 10px;
+    font-family: 'Open Sans';
+    margin-left: 40px;
+}
+
+
